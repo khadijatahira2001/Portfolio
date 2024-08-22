@@ -1,3 +1,9 @@
+import main_background from "../assets/main_background.png";
+import facemask from "../assets/facemask.jpg";
+import helmet from "../assets/helmet.png";
+import qr from "../assets/qr.jpg";
+import weather from "../assets/weather.avif";
+import task from "../assets/task.png";
 export const HERO_CONTENT = `  A passionate and skilled Frontend developer dedicated to creating
               visually appealing and highly functional websites. I specialize in crafting visually
               appealing and user-friendly web interfaces. With a strong
@@ -15,3 +21,88 @@ During my internship, I played a key role in optimizing application performance 
 export const ABOUT_TEXT1 = `Beyond frontend development, I have a deep interest in AI and machine learning, demonstrated by my work on projects like AI Safe Rider, which uses YOLOv8 for object detection, and a Face Mask Detection system built with Convolutional Neural Networks. My commitment to continuous learning keeps me at the forefront of emerging technologies, ensuring that I deliver cutting-edge solutions in every project I undertake.
 
 I'm excited to bring my skills to new challenges and I look forward to contributing to innovative projects that make a difference.`;
+
+export const data = [
+  {
+    name: `GM-GLOBAL`,
+    img: main_background,
+    TagLine: `Construction Site Website`,
+    githubUrl: `https://github.com/khadijatahira2001/GM-Global-`,
+    review: ` The website’s design is visually appealing and aligns well with the company’s branding, featuring a cohesive color scheme and professional imagery.`,
+  },
+  {
+    name: `AI-Safe Rider`,
+    img: helmet,
+    TagLine: `Moving Safely to your Destination`,
+    githubUrl: `https://github.com/khadijatahira2001/AI-safe-Rider`,
+    review: `Designed to enhance road safety by providing real-time monitoring and alerts for riders, ensuring they reach their destinations securely.`,
+  },
+  {
+    name: `Face Mask Detection`,
+    img: facemask,
+    TagLine: `Empowering Public Health`,
+    githubUrl: `https://github.com/khadijatahira2001/Face-Mask-Detection-CV-Project`,
+    review: `Designed to enhance public safety by identifying individuals wearing or not wearing masks in real-time. Originally developed in response to the COVID-19 pandemic, this technology helps enforce health protocols in public spaces.`,
+  },
+  {
+    name: `QR Code Generator`,
+    img: qr,
+    TagLine: `Unlock Content with a Simple Scan`,
+    githubUrl: `https://github.com/khadijatahira2001/QR-Code-Generator`,
+    review: `Quickly creating QR codes from various types of data, such as URLs, text, contact information. It's designed to be user-friendly and efficient, catering to both personal and professional needs.`,
+  },
+];
+
+export const Experiences = [
+  {
+    year: "April 2024- June 2024",
+    role: "Internee as a Software Engineer",
+    company: "Arkhitech",
+    description: `Worked on a project using Electron.js for desktop applications.
+• Integrated APIs to connect and retrieve data.
+• Implemented Redux Toolkit to optimize state handling and improve application performance.
+• Applied backtracking to solve complex problems.
+• Conducted debugging to identify and resolve software issues.
+• Utilized Tailwind CSS and Material-UI (MUI5) for creating pixel-perfect designs and responsive interfaces.`,
+    technologies: ["Javascript", "React.Js", "Redux", "MUI"],
+  },
+];
+
+export const work = [
+  {
+    name: `GM-GLOBAL`,
+    img: main_background,
+    review: ` The website’s design is visually appealing and aligns well with the company’s branding, featuring a cohesive color scheme and professional imagery.`,
+    technologies: ["HTML", "CSS", "React", "MUI"],
+  },
+  {
+    name: `AI-Safe Rider`,
+    img: helmet,
+    review: `Designed to enhance road safety by providing real-time monitoring and alerts for riders, ensuring they reach their destinations securely.`,
+    technologies: ["Python", "Flask", "Sqlite", "Yolo"],
+  },
+  {
+    name: `Face Mask Detection`,
+    img: facemask,
+    review: `Designed to enhance public safety by identifying individuals wearing or not wearing masks in real-time. Originally developed in response to the COVID-19 pandemic, this technology helps enforce health protocols in public spaces.`,
+    technologies: ["Python", "Flask", "Sqlite", "CNN"],
+  },
+  {
+    name: `QR Code Generator`,
+    img: qr,
+    review: `Quickly creating QR codes from various types of data, such as URLs, text, contact information. It's designed to be user-friendly and efficient, catering to both personal and professional needs.`,
+    technologies: ["Python", "Flask", "openCv"],
+  },
+  {
+    name: `Task Management`,
+    img: task,
+    review: `Task management app designed to help you stay organized and productive. Whether you’re managing daily , work projects or personal goals. Task manager makes it easy to track your tasks and get things done.`,
+    technologies: ["React.js", "CSS", "CRUD"],
+  },
+  {
+    name: `Weather App`,
+    img: weather,
+    review: `Developed a Weather App that provides real-time weather updates and forecasts using data from open APIs. The app features a clean, user-friendly interface with dynamic backgrounds reflecting current weather conditions.`,
+    technologies: ["React.js", "CSS", "API Integration"],
+  },
+];
