@@ -4,6 +4,7 @@ import helmet from "../assets/helmet.png";
 import qr from "../assets/qr.jpg";
 import weather from "../assets/weather.avif";
 import task from "../assets/task.png";
+import howmuch from "../assets/howmuch.jpeg";
 export const HERO_CONTENT = `  A passionate and skilled Frontend developer dedicated to creating
               visually appealing and highly functional websites. I specialize in crafting visually
               appealing and user-friendly web interfaces. With a strong
@@ -69,6 +70,12 @@ export const Experiences = [
 ];
 
 export const work = [
+  {
+    name: `HowMuch POS`,
+    img: howmuch,
+    review: `Howmuch POS is filled with all the features that an ideal POS system offers. It is a straightforward yet powerful software that will revolutionize your store in the digital marketing age. Our cloud-based POS software is equipped with advanced features to help you enhance sales, manage inventory, satisfy existing customers, attract new consumers, and increase revenue by a greater margin.`,
+    technologies: ["CSS", "React", "Redux Toolkit", "Restful APIs", "MUI"],
+  },
   {
     name: `GM-GLOBAL`,
     img: main_background,
