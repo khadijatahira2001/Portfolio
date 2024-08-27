@@ -5,14 +5,6 @@ import qr from "../assets/qr.jpg";
 import weather from "../assets/weather.avif";
 import task from "../assets/task.png";
 import howmuch from "../assets/howmuch.jpeg";
-export const HERO_CONTENT = `  A passionate and skilled Frontend developer dedicated to creating
-              visually appealing and highly functional websites. I specialize in crafting visually
-              appealing and user-friendly web interfaces. With a strong
-              foundation in HTML, CSS, and JavaScript, coupled with expertise in
-              modern frameworks like React,Tailwind CSS, MUI, I transform design
-              concepts into interactive digital experiences. Explore my work and let's build
-              something great together!
-              `;
 
 export const ABOUT_TEXT = `I'm Khadija Tahira, a passionate Frontend Developer with a strong foundation in computer science, honed through my Bachelor's degree and practical experience as an intern at Arkhitech. My expertise lies in crafting visually stunning and highly responsive web applications using modern technologies like React, Tailwind CSS, and Material-UI.
 
@@ -57,14 +49,8 @@ export const data = [
 export const Experiences = [
   {
     year: "April 2024- June 2024",
-    role: "Internee as a Software Engineer",
+    role: "Intern as a Software Engineer",
     company: "Arkhitech",
-    description: `Worked on a project using Electron.js for desktop applications.
-• Integrated APIs to connect and retrieve data.
-• Implemented Redux Toolkit to optimize state handling and improve application performance.
-• Applied backtracking to solve complex problems.
-• Conducted debugging to identify and resolve software issues.
-• Utilized Tailwind CSS and Material-UI (MUI5) for creating pixel-perfect designs and responsive interfaces.`,
     technologies: ["Javascript", "React.Js", "Redux", "MUI"],
   },
 ];
@@ -75,30 +61,6 @@ export const work = [
     img: howmuch,
     review: `Howmuch POS is filled with all the features that an ideal POS system offers. It is a straightforward yet powerful software that will revolutionize your store in the digital marketing age. Our cloud-based POS software is equipped with advanced features to help you enhance sales, manage inventory, satisfy existing customers, attract new consumers, and increase revenue by a greater margin.`,
     technologies: ["CSS", "React", "Redux Toolkit", "Restful APIs", "MUI"],
-  },
-  {
-    name: `GM-GLOBAL`,
-    img: main_background,
-    review: ` The website’s design is visually appealing and aligns well with the company’s branding, featuring a cohesive color scheme and professional imagery.`,
-    technologies: ["HTML", "CSS", "React", "MUI"],
-  },
-  {
-    name: `AI-Safe Rider`,
-    img: helmet,
-    review: `Designed to enhance road safety by providing real-time monitoring and alerts for riders, ensuring they reach their destinations securely.`,
-    technologies: ["Python", "Flask", "Sqlite", "Yolo"],
-  },
-  {
-    name: `Face Mask Detection`,
-    img: facemask,
-    review: `Designed to enhance public safety by identifying individuals wearing or not wearing masks in real-time. Originally developed in response to the COVID-19 pandemic, this technology helps enforce health protocols in public spaces.`,
-    technologies: ["Python", "Flask", "Sqlite", "CNN"],
-  },
-  {
-    name: `QR Code Generator`,
-    img: qr,
-    review: `Quickly creating QR codes from various types of data, such as URLs, text, contact information. It's designed to be user-friendly and efficient, catering to both personal and professional needs.`,
-    technologies: ["Python", "Flask", "openCv"],
   },
   {
     name: `Task Management`,
@@ -113,3 +75,9 @@ export const work = [
     technologies: ["React.js", "CSS", "API Integration"],
   },
 ];
+
+export const CONTACT = {
+  phoneNo: `+923154300359`,
+  email: `khadija.tahira2001@gmail.com`,
+  linkedIn: `https://www.linkedin.com/in/khadija-tahira-3379671b2/`,
+};
