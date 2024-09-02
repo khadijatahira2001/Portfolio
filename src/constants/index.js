@@ -21,28 +21,28 @@ export const data = [
     img: main_background,
     TagLine: `Construction Site Website`,
     githubUrl: `https://github.com/khadijatahira2001/GM-Global-`,
-    review: ` The website’s design is visually appealing and aligns well with the company’s branding, featuring a cohesive color scheme and professional imagery.`,
+    review: `Developed a dynamic GM global React app integrating Browser Router for seamless navigation, with MUI and Tailwind CSS to create a responsive, modern user interface.`,
   },
   {
     name: `AI-Safe Rider`,
     img: helmet,
     TagLine: `Moving Safely to your Destination`,
     githubUrl: `https://github.com/khadijatahira2001/AI-safe-Rider`,
-    review: `Designed to enhance road safety by providing real-time monitoring and alerts for riders, ensuring they reach their destinations securely.`,
+    review: `"Trained a AI Model Safe Bike Rider system using YOLOv8 for real-time object detection, enhancing road safety with advanced machine learning capabilities.`,
   },
   {
     name: `Face Mask Detection`,
     img: facemask,
     TagLine: `Empowering Public Health`,
     githubUrl: `https://github.com/khadijatahira2001/Face-Mask-Detection-CV-Project`,
-    review: `Designed to enhance public safety by identifying individuals wearing or not wearing masks in real-time. Originally developed in response to the COVID-19 pandemic, this technology helps enforce health protocols in public spaces.`,
+    review: `Developed a Face Mask Detection system using Convolutional Neural Networks (CNN) to ensure safety and compliance during COVID-19 through real-time image analysis.`,
   },
   {
     name: `QR Code Generator`,
     img: qr,
     TagLine: `Unlock Content with a Simple Scan`,
     githubUrl: `https://github.com/khadijatahira2001/QR-Code-Generator`,
-    review: `Quickly creating QR codes from various types of data, such as URLs, text, contact information. It's designed to be user-friendly and efficient, catering to both personal and professional needs.`,
+    review: `Developed a QR Code Generator using Python libraries like qrcode and Pillow, enabling quick and easy creation of customizable QR codes.`,
   },
 ];
 
@@ -65,14 +65,14 @@ export const work = [
   {
     name: `Task Management`,
     img: task,
-    review: `Task management app designed to help you stay organized and productive. Whether you’re managing daily , work projects or personal goals. Task manager makes it easy to track your tasks and get things done.`,
+    review: `Built a Task Management System in React, implementing robust CRUD operations for efficient task creation, editing, deletion, and real-time updates.`,
     technologies: ["React.js", "CSS", "CRUD"],
   },
   {
     name: `Weather App`,
     img: weather,
-    review: `Developed a Weather App that provides real-time weather updates and forecasts using data from open APIs. The app features a clean, user-friendly interface with dynamic backgrounds reflecting current weather conditions.`,
-    technologies: ["React.js", "CSS", "API Integration"],
+    review: `Built a Weather App in React utilizing the Weather API and Axios for dynamic data retrieval, with Postman used for thorough API testing and validation.`,
+    technologies: ["React.js", "CSS", "API Integration","PostMan"],
   },
 ];
 

@@ -11,7 +11,7 @@ const Work = () => {
         transition={{ duration: 0.5 }}
         className="my-32 text-center text-6xl"
       >
-        Featured Work{" "}
+        Initial Work{" "}
       </motion.h1>
       <div>
         {work.map((work, index) => (

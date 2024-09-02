@@ -37,7 +37,7 @@ const Experience = () => {
                 </span>
               </h4>
               <p className="mb-4 w-[700px] text-neutral-400 text-2xl">
-                <ul style={{ listStyleType: "disc" }}>
+                <ul  style={{  listStyleType: "disc" }}>
                   <li>
                     Worked on a project using Electron.js for desktop
                     applications.
