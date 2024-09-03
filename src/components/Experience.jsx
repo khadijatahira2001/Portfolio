@@ -9,7 +9,7 @@ const Experience = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-32 text-center text-6xl"
+        className="my-32 text-center text-4xl"
       >
         Experience
       </motion.h1>
@@ -36,8 +36,8 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h4>
-              <p className="mb-4 w-[700px] text-neutral-400 text-2xl">
-                <ul  style={{  listStyleType: "disc" }}>
+              <p className="mb-4  text-neutral-400 text-2xl">
+                <ul style={{ listStyleType: "disc" }}>
                   <li>
                     Worked on a project using Electron.js for desktop
                     applications.

@@ -11,7 +11,7 @@ const Work = () => {
         transition={{ duration: 0.5 }}
         className="my-32 text-center text-6xl"
       >
-        Initial Work{" "}
+        Other Projects
       </motion.h1>
       <div>
         {work.map((work, index) => (
@@ -37,17 +37,17 @@ const Work = () => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold text-2xl">{work.name}</h6>
-              <p className="mb-4 w-[700px] text-neutral-400 text-xl">
-                {work.review}
-              </p>
-              {work.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 font-medium text-xl text-purple-900"
-                >
-                  {tech}
-                </span>
-              ))}
+              <p className="mb-4  text-neutral-400 text-xl">{work.review}</p>
+              <div className="flex flex-wrap gap-2">
+                {work.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="mr-2 rounded bg-neutral-900 px-2 py-1 font-medium text-xl text-purple-900"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}

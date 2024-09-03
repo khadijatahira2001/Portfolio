@@ -38,7 +38,7 @@ export default function ContactUs() {
         transition={{ duration: 1 }}
         className="md:w-1/2 text-neutral-500 p-5 ml-10"
       >
-        <h2 className="text-6xl font-bold mb-4 text-white">
+        <h2 className="text-4xl font-bold mb-4 text-white">
           Get In <span className="text-purple-400">Touch</span>
         </h2>
 
@@ -56,7 +56,7 @@ export default function ContactUs() {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
-        className="bg-neutral-400 p-6 rounded-lg shadow-lg md:w-1/2 w-full"
+        className="bg-white p-6 rounded-lg shadow-lg md:w-1/2  w-full"
       >
         <form
           ref={form}

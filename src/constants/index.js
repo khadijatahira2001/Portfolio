@@ -28,7 +28,7 @@ export const data = [
     img: helmet,
     TagLine: `Moving Safely to your Destination`,
     githubUrl: `https://github.com/khadijatahira2001/AI-safe-Rider`,
-    review: `"Trained a AI Model Safe Bike Rider system using YOLOv8 for real-time object detection, enhancing road safety with advanced machine learning capabilities.`,
+    review: `Trained a AI Model Safe Bike Rider system using YOLOv8 for real-time object detection, enhancing road safety with advanced machine learning capabilities.`,
   },
   {
     name: `Face Mask Detection`,
@@ -72,7 +72,7 @@ export const work = [
     name: `Weather App`,
     img: weather,
     review: `Built a Weather App in React utilizing the Weather API and Axios for dynamic data retrieval, with Postman used for thorough API testing and validation.`,
-    technologies: ["React.js", "CSS", "API Integration","PostMan"],
+    technologies: ["React.js", "CSS", "API Integration", "PostMan"],
   },
 ];
 
