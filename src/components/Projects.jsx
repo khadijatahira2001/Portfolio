@@ -31,13 +31,13 @@ const Projects = () => {
           >
             <div className="relative">
               <img
-                className="w-80 h-64 object-cover rounded-t-lg"
+                className="w-72 h-64 object-cover rounded-t-lg"
                 src={project.img}
                 alt={project.name}
               />
             </div>
 
-            <div className="px-6 py-4">
+            <div className="px-6 py-4 w-72">
               <div className="font-bold text-xl mb-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent">
                 {project.name}
               </div>
