@@ -45,7 +45,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="w-[110%] my-1 max-w-[58rem] py-4 font-light text-xl tracking-tighter"
+              className="sm:w-auto text-center sm:text-left  my-1 max-w-[58rem] py-4 font-light text-xl tracking-tighter"
             >
               A passionate and skilled Frontend developer dedicated to creating
               visually appealing and highly functional websites. I specialize in
