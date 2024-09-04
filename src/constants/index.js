@@ -77,7 +77,6 @@ export const work = [
 ];
 
 export const CONTACT = {
-  phoneNo: `+923154300359`,
   email: `khadija.tahira2001@gmail.com`,
   linkedIn: `https://www.linkedin.com/in/khadija-tahira-3379671b2/`,
 };

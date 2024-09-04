@@ -23,6 +23,9 @@ export default function ContactUs() {
       .then(
         () => {
           alert("Message sent successfully!");
+          setName("");
+          setEmail("");
+          setMessage("");
         },
         (error) => {
           console.error("Failed to send message:", error.text);
@@ -44,10 +47,21 @@ export default function ContactUs() {
 
         <ul className="space-y-2">
           <li className="flex items-center">
-            <i className="fas fa-phone-alt mr-2 text-2xl"></i> +(923) 154 300359
+            <i className="fas fa-phone-alt mr-2 text-2xl"></i>
+            <a
+              href="https://www.linkedin.com/in/khadija-tahira-3379671b2/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Checkout My LinkedIn
+            </a>
           </li>
           <li className="flex items-center">
-            <i className="fas fa-envelope mr-2 text-2xl"></i> {CONTACT.email}
+            <i className="fas fa-envelope mr-2 text-2xl"></i>
+            <a href={`mailto:${CONTACT.email}`} className="hover:underline">
+              {CONTACT.email}
+            </a>
           </li>
         </ul>
       </motion.div>
@@ -56,12 +70,12 @@ export default function ContactUs() {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
-        className="bg-white p-6 rounded-lg shadow-lg md:w-1/2  w-full"
+        className="bg-white p-6 rounded-lg shadow-lg md:w-1/2 w-full"
       >
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col space-y-4"
+          className="flex flex-col space-y-4 text-neutral-800"
         >
           <label className="font-bold text-neutral-700">Your Name</label>
           <input
