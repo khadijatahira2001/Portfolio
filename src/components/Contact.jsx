@@ -36,7 +36,7 @@ export default function ContactUs() {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1 }}
-        className="md:w-1/2 text-neutral-500 p-5 ml-10"
+        className="md:w-1/2 text-neutral-500 p-5 sm:ml-0 lg:ml-10"
       >
         <h2 className="text-4xl font-bold mb-4 text-white">
           Get In <span className="text-purple-400">Touch</span>

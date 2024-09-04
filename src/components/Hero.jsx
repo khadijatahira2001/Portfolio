@@ -29,7 +29,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-10 text-4xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-10 text-4xl font-thin tracking-tight lg:mt-16 lg:text-8xl hidden lg:block"
             >
               Khadija Tahira
             </motion.h1>
@@ -45,7 +45,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="w-[110%] my-1 max-w-[58rem] py-4 font-light text-2xl tracking-tighter"
+              className="w-[110%] my-1 max-w-[58rem] py-4 font-light sm:text-xl lg:text-2xl tracking-tighter"
             >
               A passionate and skilled Frontend developer dedicated to creating
               visually appealing and highly functional websites. I specialize in
@@ -76,7 +76,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              className="w-80 h-80 mt-20 rounded-full"
+              className="hidden lg:block w-80 h-80 mt-20 rounded-full"
               src={profilePic}
               alt="profile pic"
             />

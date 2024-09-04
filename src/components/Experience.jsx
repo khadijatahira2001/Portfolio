@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pb-24">
+    <div className="border-b border-neutral-900 pb-16">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-32 text-center text-4xl"
+        className="my-20 text-center text-4xl"
       >
         Experience
       </motion.h1>
@@ -36,7 +36,7 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h4>
-              <p className="mb-4  text-neutral-400 text-2xl">
+              <p className="mb-4  text-neutral-400 sm:text-xl lg:text-2xl">
                 <ul style={{ listStyleType: "disc" }}>
                   <li>
                     Worked on a project using Electron.js for desktop
