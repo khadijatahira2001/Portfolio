@@ -52,14 +52,14 @@ export default function ContactUs() {
               href="https://www.linkedin.com/in/khadija-tahira-3379671b2/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline"
+              className="underline"
             >
               Checkout My LinkedIn
             </a>
           </li>
           <li className="flex items-center">
             <i className="fas fa-envelope mr-2 text-2xl"></i>
-            <a href={`mailto:${CONTACT.email}`} className="hover:underline">
+            <a href={`mailto:${CONTACT.email}`} className="underline">
               {CONTACT.email}
             </a>
           </li>

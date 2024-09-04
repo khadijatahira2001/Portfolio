@@ -21,7 +21,7 @@ const Hero = () => {
     document.body.removeChild(link);
   };
   return (
-    <div className="border-b border-neutral-900 pb-16 lg:mb-35 ml-10 ">
+    <div className="border-b border-neutral-900 pb-16 lg:mb-35 ">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -45,7 +45,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="w-[110%] my-1 max-w-[58rem] py-4 font-light sm:text-xl lg:text-2xl tracking-tighter"
+              className="w-[110%] my-1 max-w-[58rem] py-4 font-light text-xl tracking-tighter"
             >
               A passionate and skilled Frontend developer dedicated to creating
               visually appealing and highly functional websites. I specialize in
